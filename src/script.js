@@ -83,6 +83,7 @@ const miya = {
 
 console.log(miya);
 
+//the poor man's deep clone
 const dev = JSON.parse(JSON.stringify(miya));
 dev.social.instagram = " @miya_fullstackdev";
 console.log(miya, dev);
